@@ -1,2 +1,3 @@
 const categories = document.querySelector("#categories");
-console.log(categories.children.length);
+const totalCategories = categories.children;
+console.log(totalCategories);
