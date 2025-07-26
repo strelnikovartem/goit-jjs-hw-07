@@ -1,2 +1,2 @@
 const categories = document.querySelector("#categories");
-console.log(categories.length);
+console.log(categories[categories.length]);
