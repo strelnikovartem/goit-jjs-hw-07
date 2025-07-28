@@ -27,3 +27,10 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 console.log(gallery);
+
+const createMarkup = (arr) => {
+  return arr.map((item) => {
+    return `
+    `;
+  });
+};
