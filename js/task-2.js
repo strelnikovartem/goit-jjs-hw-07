@@ -29,8 +29,17 @@ const gallery = document.querySelector(".gallery");
 console.log(gallery);
 
 const createMarkup = (arr) => {
-  return arr.map((item) => {
-    return `
+  return arr
+    .map((item) => {
+      return `
+    <li class="gallery-item">
+    <img src="${item.url}" alt="${item.alt}" width="360"></img>
+    </li>
     `;
-  });
+    })
+    .join("");
 };
+
+gallery.insertAdjacentHTML("beforeend", createMarkup(images));
+
+// console.log(createMarkup(images));
