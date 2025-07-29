@@ -33,7 +33,7 @@ const createMarkup = (arr) => {
     .map((item) => {
       return `
     <li class="gallery-item">
-    <img src="${item.url}" alt="${item.alt}" width="360"></img>
+    <img src="${item.url}" alt="${item.alt}" width="360" height="300"></img>
     </li>
     `;
     })
