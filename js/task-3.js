@@ -3,5 +3,5 @@ const input = document.querySelector("#name-input");
 input.addEventListener("input", handleClick);
 
 function handleClick(evt) {
-  console.log(evt.value);
+  console.log(evt.target.value);
 }
