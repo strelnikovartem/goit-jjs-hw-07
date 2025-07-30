@@ -4,5 +4,6 @@ form.addEventListener("submit", hendleSubmit);
 
 function hendleSubmit(event) {
   event.preventDefault();
-  console.log("ok");
+  console.log(event.target.elements.email.value);
+  event.target.reset();
 }
