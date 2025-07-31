@@ -12,8 +12,8 @@ function hendleSubmit(event) {
   }
 
   const user = {
-    email,
-    password,
+    email: email,
+    password: password,
   };
 
   console.log(user);
