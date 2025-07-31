@@ -5,6 +5,7 @@ form.addEventListener("submit", hendleSubmit);
 function hendleSubmit(event) {
   event.preventDefault();
   const email = event.target.elements.email.value;
-  console.log(email);
+  const password = event.target.elements.password.value;
+
   event.target.reset();
 }
