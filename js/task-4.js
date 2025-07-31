@@ -10,5 +10,13 @@ function hendleSubmit(event) {
     alert`All form fields must be filled in`;
     return;
   }
+
+  const user = {
+    email: email,
+    password: password,
+  };
+
+  console.log(user);
+
   event.target.reset();
 }
